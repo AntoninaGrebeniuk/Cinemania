@@ -1,21 +1,21 @@
 {
-  "name": "movies-23",
+  "name": "cinemania",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://TatianaSkl.github.io/movies-23",
+  "homepage": "https://AntoninaGrebeniuk.github.io/cinemania",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /movies-23/"
+    "build": "parcel build src/*.html --public-url /cinemania/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/AntoninaGrebeniuk/cinemania.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/AntoninaGrebeniuk/cinemania/issues"
   },
   "dependencies": {
     "axios": "^1.4.0",
