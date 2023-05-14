@@ -92,12 +92,13 @@ export async function loadIntoModal(idMovie) {
           localStorage.setItem(LibKey, JSON.stringify(library));
         }
         filmAddBtn.textContent = 'Add to my library';
-        onCloseModal();
+        // onCloseModal();
         location.reload();
       }
     });
   } catch (err) {
-    modalListRef.innerHTML = '<div class="modal__empty">Sorry, info is unavailable</div>';
+    modalListRef.innerHTML =
+      '<div class="modal__empty">Sorry, info is unavailable</div>';
     return;
   }
 }
